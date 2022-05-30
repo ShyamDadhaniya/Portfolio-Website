@@ -1,0 +1,79 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header-container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+/* Download */
+.Downloadcolor{
+    color: #60A3D7;
+    background: transparent;
+}
+.Downloadcolor:hover{
+    background: #4df5ff;
+    color: #19477D
+}
+.Talkcolor{
+    background: #4df5ff;
+    color: #19477D
+}
+.Talkcolor:hover{
+    color: #60A3D7;
+    background: transparent;
+}
+/* Header Social */
+
+.header__social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8 rem;
+    position: absolute;
+    left: 200px;
+    bottom: 0rem;
+}
+
+.header__social::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* ME  */
+
+.me{
+    background: linear-gradient(#4df5ff, transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: -5rem 1.5rem 1.5rem 1.5rem;
+    -webkit-border-radius: 12rem 12rem 0 0;
+    -moz-border-radius: 12rem 12rem 0 0;
+    -ms-border-radius: 12rem 12rem 0 0;
+    -o-border-radius: 12rem 12rem 0 0;
+}
+
+/* Scroll Down */
+
+.scroll__down{
+    position: absolute;
+    right: 10.7rem;
+    bottom: 0rem;
+    transform: rotate(90deg);
+    font-weight: bold;
+    font-size: 0.9rem;
+    -webkit-transform: rotate(90);
+    -moz-transform: rotate(90);
+    -ms-transform: rotate(90);
+    -o-transform: rotate(90);
+}
